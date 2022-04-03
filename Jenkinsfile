@@ -2,12 +2,12 @@ pipeline{
     agent any
     stages{
         stage('build code'){
-           step{
+           steps{
             sh echo "building code from master"
            }
         }
             stage('deploy code'){
-           step{
+           steps{
            sh echo "deploying code from master"
          }
             }
