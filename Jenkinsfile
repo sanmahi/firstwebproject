@@ -5,6 +5,7 @@ pipeline{
            step{
             sh echo "building code from master"
            }
+        }
             stage('deploy code'){
            step{
            sh echo "deploying code from master"
